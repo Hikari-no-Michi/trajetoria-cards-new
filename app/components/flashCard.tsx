@@ -1,5 +1,10 @@
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
+type ConteudoDisciplina = {
+  pergunta: string;
+  resposta: string;
+};
 interface FlashcardProps {
   conteudoDisciplina: {
     pergunta: string;
@@ -10,6 +15,9 @@ interface FlashcardProps {
   setShowDisciplinas: React.Dispatch<React.SetStateAction<boolean>>;
   mostrarPergunta: boolean;
   setMostrarPergunta: React.Dispatch<React.SetStateAction<boolean>>;
+  setCardAtual: React.Dispatch<React.SetStateAction<ConteudoDisciplina | null>>;
+  setListaDeCards: React.Dispatch<React.SetStateAction<ConteudoDisciplina[]>>;
+  selecionarProximoCard: () => void;
 }
 
 const Flashcard: React.FC<FlashcardProps> = ({
@@ -19,6 +27,7 @@ const Flashcard: React.FC<FlashcardProps> = ({
   setShowDisciplinas,
   mostrarPergunta,
   setMostrarPergunta,
+  selecionarProximoCard,
 }) => {
   return (
     <div className="w-full max-w-lg mt-4 px-2 sm:px-0">
@@ -37,6 +46,30 @@ const Flashcard: React.FC<FlashcardProps> = ({
                 {conteudoDisciplina.resposta}
               </p>
             )}
+
+            <div className="flex justify-center space-x-4 mt-4">
+              <div className="w-auto text-center">
+                <button className="text-red-500" 
+                onClick={(e) => {
+                  e.stopPropagation();
+                  selecionarProximoCard();
+                }}
+                >
+                  <FontAwesomeIcon icon={faTimesCircle} size="3x" />
+                </button>
+              </div>
+              <div className="w-auto text-center">
+                <button className="text-green-500"
+                onClick={(e) => {
+                  e.stopPropagation(); 
+                  selecionarProximoCard();
+                }}
+                
+                >
+                  <FontAwesomeIcon icon={faCheckCircle} size="3x" />
+                </button>
+              </div>
+            </div>
           </>
         ) : (
           <>

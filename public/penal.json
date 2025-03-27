@@ -1,18 +1,54 @@
 [
   {
-    "pergunta": "Quais são princípios fundamentais do Direito Penal?",
+    "pergunta": "Princípios fundamentais do Direito Penal",
     "resposta": "1.Dignidade da Pessoa Humana, 2.Legalidade, 3.Irretroatividade, 4.Humanidade das Penas, 5.Individualização das Penas, 6.Limitação das Penas, 7.Culpabilidade, 8.Insignificância, 9.Princípio do Fato, 10.Alteridade, 11.Ofensividade (ou lesividade), 12.Intervenção Mínima, 13.Responsabilidade Pessoal, 14.Proporcionalidade"
   },  
   {
     "pergunta": "Crime doloso",
-    "resposta": "Quando o agente quis o resultado ou assumiu o risco de produzi-lo."
+    "resposta": "Art 18, I - Quando o agente quis o resultado ou assumiu o risco de produzi-lo."
   },
   {
     "pergunta": "Crime culposo",
-    "resposta": "Quando o agente deu causa ao resultado por imprudência, negligência ou imperícia."
+    "resposta": "Art 18, II - Quando o agente deu causa ao resultado por imprudência, negligência ou imperícia."
   },
   {
-    "pergunta": "O que caracteriza a legítima defesa no Código Penal?",
-    "resposta": "A legítima defesa ocorre quando alguém usa moderadamente dos meios necessários para repelir injusta agressão, atual ou iminente, a direito seu ou de outrem."
+    "pergunta": "Legítima defesa",
+    "resposta": "Art. 25 - Entende-se em legítima defesa quem, usando moderadamente dos meios necessários, repele injusta agressão, atual ou iminente, a direito seu ou de outrem.  Parágrafo único. Observados os requisitos previstos no caput deste artigo, considera-se também em legítima defesa o agente de segurança pública que repele agressão ou risco de agressão a vítima mantida refém durante a prática de crimes. "
+  },
+  {
+    "pergunta": "Desistência voluntária e arrependimento eficaz",
+    "resposta": "Art 15 - O agente que, voluntariamente, desiste de prosseguir na execução ou impede que o resultado se produza, só responde pelos atos já praticados."
+  },
+  {
+    "pergunta": "Arrependimento posterior",
+    "resposta": "Art 16 - Nos crimes cometidos sem violência ou grave ameaça à pessoa, reparado o dano ou restituída a coisa, até o recebimento da denúncia ou da queixa, por ato voluntário do agente, a pena será reduzida de um a dois terços."
+  },
+  {
+    "pergunta":"Crime impossível",
+    "resposta": "Art. 17 - Não se pune a tentativa quando, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é impossível consumar-se o crime."
+  }, 
+  { 
+    "pergunta": "Estado de necessidade", 
+    "resposta": "Art. 24 - Considera-se em estado de necessidade quem pratica o fato para salvar de perigo atual, que não provocou por sua vontade, nem podia de outro modo evitar, direito próprio ou alheio, cujo sacrifício, nas circunstâncias, não era razoável exigir-se. § 1º - Não pode alegar estado de necessidade quem tinha o dever legal de enfrentar o perigo. § 2º - Embora seja razoável exigir-se o sacrifício do direito ameaçado, a pena poderá ser reduzida de um a dois terços." 
+  },
+  { 
+    "pergunta": "Exclusão de ilicitude", 
+    "resposta": "Art. 23 - Não há crime quando o agente pratica o fato: I - em estado de necessidade; II - em legítima defesa; III - em estrito cumprimento de dever legal ou no exercício regular de direito. Parágrafo único - O agente, em qualquer das hipóteses deste artigo, responderá pelo excesso doloso ou culposo." 
+  },
+  { 
+    "pergunta": "Relevância da omissão", 
+    "resposta": "Art. 13, § 2º - A omissão é penalmente relevante quando o omitente devia e podia agir para evitar o resultado. O dever de agir incumbe a quem: a) tenha por lei obrigação de cuidado, proteção ou vigilância; b) de outra forma, assumiu a responsabilidade de impedir o resultado; c) com seu comportamento anterior, criou o risco da ocorrência do resultado." 
+  },
+  { 
+    "pergunta": "Coação irresistível e obediência hierárquica", 
+    "resposta": "Art. 22 - Se o fato é cometido sob coação irresistível ou em estrita obediência a ordem, não manifestamente ilegal, de superior hierárquico, só é punível o autor da coação ou da ordem." 
+  },
+  { 
+    "pergunta": "Homicídio simples", 
+    "resposta": "Art. 121. Matar alguém: Pena - reclusão, de seis a vinte anos. Caso de diminuição de pena § 1º Se o agente comete o crime impelido por motivo de relevante valor social ou moral, ou sob o domínio de violenta emoção, logo em seguida a injusta provocação da vítima, o juiz pode reduzir a pena de um sexto a um terço." 
+  },
+  { 
+    "pergunta": "Homicídio qualificado", 
+    "resposta": "§ 2° Se o homicídio é cometido: I - mediante paga ou promessa de recompensa, ou por outro motivo torpe; II - por motivo fútil; III - com emprego de veneno, fogo, explosivo, asfixia, tortura ou outro meio insidioso ou cruel, ou de que possa resultar perigo comum; IV - à traição, de emboscada, ou mediante dissimulação ou outro recurso que dificulte ou torne impossível a defesa do ofendido; V - para assegurar a execução, a ocultação, a impunidade ou vantagem de outro crime: Pena - reclusão, de doze a trinta anos." 
   }
 ]

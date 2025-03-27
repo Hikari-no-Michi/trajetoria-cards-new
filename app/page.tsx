@@ -7,6 +7,10 @@ import {
   faClipboardList,
   faChartBar,
 } from '@fortawesome/free-solid-svg-icons';
+import Header from './components/header';
+import Flashcard from './components/flashCard';
+import ModalDisciplinas from './components/modalDisciplinas';
+import SearchBar from './components/searchBar.tsx';
 
 type Disciplina = {
   nome: string;
@@ -56,6 +60,7 @@ export default function FlashcardApp() {
   const [conteudoDisciplina, setConteudoDisciplina] =
     useState<ConteudoDisciplina | null>(null);
   const [mostrarPergunta, setMostrarPergunta] = useState(true);
+  const [pesquisa, setPesquisa] = useState<string>('');
 
   useEffect(() => {
     const fraseAleatoria =
@@ -85,105 +90,40 @@ export default function FlashcardApp() {
 
   return (
     <div className="h-screen w-full bg-sky-100 flex flex-col items-center">
-      {/* Header */}
-      <header className="w-full bg-sky-600 text-white p-4 shadow-md flex flex-col items-center">
-        <h1 className="text-base font-semibold">
-          Lei Seca | Lei de Registros Públicos
-        </h1>
-        <div className="w-full flex justify-between mt-2 max-w-lg">
-          <button className="flex-1 bg-sky-500 p-2 mx-0.5 rounded-md flex flex-col items-center justify-center text-sm">
-            <FontAwesomeIcon icon={faChartBar} className="w-6 h-6 mb-1" />
-            <span>Estatísticas</span>
-          </button>
-          <button
-            onClick={() => setShowDisciplinas(true)}
-            className="flex-1 bg-sky-500 p-2 mx-0.5 rounded-md flex flex-col items-center justify-center text-sm"
-          >
-            <FontAwesomeIcon icon={faBook} className="w-6 h-6 mb-1" />
-            <span>Disciplina</span>
-          </button>
-          <button className="flex-1 bg-sky-500 p-2 mx-0.5 rounded-md flex flex-col items-center justify-center text-sm">
-            <FontAwesomeIcon icon={faClipboardList} className="w-6 h-6 mb-1" />
-            <span>Revisão</span>
-          </button>
-        </div>
-      </header>
+      
+       {/* Header */}
+      <Header 
+        titulo={selectedDisciplina ? selectedDisciplina.nome : "Trajetória Concursos Cards"} 
+        setShowDisciplinas={setShowDisciplinas} 
+      />
 
+      {/* Modal Disciplinas */}
       {showDisciplinas && (
-        <div className="fixed inset-0 bg-black bg-opacity-60 flex justify-center items-center">
-          <div className="bg-white w-[400px] max-w-full rounded-lg p-6 shadow-xl h-[80%] mx-2 flex flex-col">
-            <h2 className="text-2xl font-bold text-center text-[#0288d1] mb-4">
-              Selecione uma disciplina
-            </h2>
-            <div className="flex-grow overflow-y-auto max-h-[400px]">
-              {disciplinas.map((disciplina) => (
-                <button
-                  key={disciplina.nome}
-                  onClick={() => handleSelectDisciplina(disciplina)}
-                  className={`w-full text-left px-4 py-3 mb-2 rounded-md ${
-                    selectedDisciplina?.nome === disciplina.nome
-                      ? 'bg-pink-500 text-white'
-                      : 'bg-[#e0f7fa] text-[#0288d1] hover:bg-[#0288d1] hover:text-white'
-                  }`}
-                >
-                  {disciplina.nome}
-                </button>
-              ))}
-            </div>
-            <button
-              className="w-full mt-4 bg-[#0288d1] text-white py-2 rounded-full"
-              onClick={() => setShowDisciplinas(false)}
-            >
-              Fechar
-            </button>
-          </div>
-        </div>
+        <ModalDisciplinas
+        disciplinas={disciplinas}
+        selectedDisciplina={selectedDisciplina}
+        handleSelectDisciplina={handleSelectDisciplina}
+        setShowDisciplinas={setShowDisciplinas}
+        mostrarPergunta={mostrarPergunta}
+        setMostrarPergunta={setMostrarPergunta}
+        />
       )}
 
       {/* Search Bar */}
-      <div className="w-full max-w-lg mt-4 px-2 sm:px-0">
-        <input
-          type="text"
-          placeholder="Pesquisar card"
-          className="w-full p-2 border border-sky-400 rounded-md"
-        />
-      </div>
+      <SearchBar 
+      placeholder="Pesquisar card" 
+      setPesquisa={setPesquisa} 
+      />
 
       {/* Flashcard */}
-      <div className="w-full max-w-lg mt-4 px-2 sm:px-0">
-        <div
-          onClick={() => setMostrarPergunta(!mostrarPergunta)}
-          className="bg-white p-2 rounded-lg shadow-md text-center sm:h-[300px] h-[250px]"
-        >
-          {conteudoDisciplina ? (
-            <>
-              {mostrarPergunta === false ? (
-                <h2 className="text-2xl font-bold text-[#0288d1] text-center mb-4 transition-opacity duration-500 opacity-100 flex items-center justify-center h-full">
-                  {conteudoDisciplina.pergunta}
-                </h2>
-              ) : (
-                <p className="text-lg text-center text-gray-700 transition-opacity duration-500 opacity-100 flex items-center justify-center h-full px-4">
-                  {conteudoDisciplina.resposta}
-                </p>
-              )}
-            </>
-          ) : (
-            <>
-              <h2 className="text-2xl font-bold text-[#0288d1] text-center mb-2 py-6 px-2 md:text-3xl md:px-3 lg:text-3xl lg:px-5">
-                {mensagem}
-              </h2>
-              {!showDisciplinas && (
-                <button
-                  className="bg-[#0288d1] text-white px-8 py-3 rounded-full shadow-lg border-2 border-[#0288d1] hover:bg-[#01579b] focus:outline-none"
-                  onClick={() => setShowDisciplinas(true)}
-                >
-                  Vamos Começar ?
-                </button>
-              )}
-            </>
-          )}
-        </div>
-      </div>
+      <Flashcard
+        conteudoDisciplina={conteudoDisciplina}
+        mensagem={mensagem}
+        showDisciplinas={showDisciplinas}
+        setShowDisciplinas={setShowDisciplinas}
+        mostrarPergunta={mostrarPergunta}
+        setMostrarPergunta={setMostrarPergunta}
+      />
     </div>
   );
 }

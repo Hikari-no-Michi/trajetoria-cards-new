@@ -1,11 +1,15 @@
 [
   {
-    "pergunta": "Qual é o princípio fundamental do Código Penal?",
-    "resposta": "O princípio fundamental do Código Penal é o princípio da legalidade, que estabelece que não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal."
+    "pergunta": "Quais são princípios fundamentais do Direito Penal?",
+    "resposta": "1.Dignidade da Pessoa Humana, 2.Legalidade, 3.Irretroatividade, 4.Humanidade das Penas, 5.Individualização das Penas, 6.Limitação das Penas, 7.Culpabilidade, 8.Insignificância, 9.Princípio do Fato, 10.Alteridade, 11.Ofensividade (ou lesividade), 12.Intervenção Mínima, 13.Responsabilidade Pessoal, 14.Proporcionalidade"
+  },  
+  {
+    "pergunta": "Crime doloso",
+    "resposta": "Quando o agente quis o resultado ou assumiu o risco de produzi-lo."
   },
   {
-    "pergunta": "O que é crime doloso?",
-    "resposta": "Crime doloso ocorre quando o agente tem a intenção de cometer o crime ou assume o risco de produzi-lo."
+    "pergunta": "Crime culposo",
+    "resposta": "Quando o agente deu causa ao resultado por imprudência, negligência ou imperícia."
   },
   {
     "pergunta": "O que caracteriza a legítima defesa no Código Penal?",

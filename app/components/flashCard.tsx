@@ -71,25 +71,26 @@ const Flashcard: React.FC<FlashcardProps> = ({
       {/* Só exibe os botões quando o conteúdo do card estiver disponível */}
       {conteudoDisciplina && (
         <div className="flex justify-center space-x-4 mt-4">
-          <div
-            className="w-[200px] text-center bg-slate-200 p-2 text-slate-700 select-none cursor-pointer"
-            onClick={(e) => {
-              e.stopPropagation();
-              selecionarProximoCard();
-            }}
-          >
-            Não Acertei 😞
-          </div>
-          <div
-            className="w-[200px] text-center bg-slate-200 p-2 text-slate-700 select-none cursor-pointer"
-            onClick={(e) => {
-              e.stopPropagation();
-              selecionarProximoCard();
-            }}
-          >
-            Acertei 😎
-          </div>
+        <div
+          className="w-[200px] text-center bg-red-200 p-2 text-slate-700 select-none cursor-pointer focus:outline-none transition transform duration-200 hover:scale-105 active:scale-95"
+          onClick={(e) => {
+            e.stopPropagation();
+            selecionarProximoCard();
+          }}
+        >
+          Não Acertei 😞
         </div>
+        <div
+          className="w-[200px] text-center bg-green-200 p-2 text-slate-700 select-none cursor-pointer focus:outline-none transition transform duration-200 hover:scale-105 active:scale-95"
+          onClick={(e) => {
+            e.stopPropagation();
+            selecionarProximoCard();
+          }}
+        >
+          Acertei 😎
+        </div>
+      </div>
+      
       )}
     </div>
   );

@@ -42,13 +42,260 @@
   { 
     "pergunta": "Coação irresistível e obediência hierárquica", 
     "resposta": "Art. 22 - Se o fato é cometido sob coação irresistível ou em estrita obediência a ordem, não manifestamente ilegal, de superior hierárquico, só é punível o autor da coação ou da ordem." 
+  },  
+  {
+    "pergunta": "Homicídio Simples",
+    "resposta": "Art. 121 - Matar alguém: Pena - reclusão, de seis a vinte anos."
   },
-  { 
-    "pergunta": "Homicídio simples", 
-    "resposta": "Art. 121. Matar alguém: Pena - reclusão, de seis a vinte anos. Caso de diminuição de pena § 1º Se o agente comete o crime impelido por motivo de relevante valor social ou moral, ou sob o domínio de violenta emoção, logo em seguida a injusta provocação da vítima, o juiz pode reduzir a pena de um sexto a um terço." 
+  {
+    "pergunta": "Caso de Diminuição de Pena",
+    "resposta": "Art. 121, § 1º - Se o agente comete o crime impelido por motivo de relevante valor social ou moral, ou sob o domínio de violenta emoção, logo em seguida à injusta provocação da vítima, o juiz pode reduzir a pena de um sexto a um terço."
   },
-  { 
-    "pergunta": "Homicídio qualificado", 
-    "resposta": "§ 2° Se o homicídio é cometido: I - mediante paga ou promessa de recompensa, ou por outro motivo torpe; II - por motivo fútil; III - com emprego de veneno, fogo, explosivo, asfixia, tortura ou outro meio insidioso ou cruel, ou de que possa resultar perigo comum; IV - à traição, de emboscada, ou mediante dissimulação ou outro recurso que dificulte ou torne impossível a defesa do ofendido; V - para assegurar a execução, a ocultação, a impunidade ou vantagem de outro crime: Pena - reclusão, de doze a trinta anos." 
+  {
+    "pergunta": "Homicídio Qualificado",
+    "resposta": "Art. 121, § 2º - Se o homicídio é cometido: I - Mediante paga ou promessa de recompensa, ou por outro motivo torpe; II - Por motivo fútil; III - Com emprego de veneno, fogo, explosivo, asfixia, tortura ou outro meio insidioso ou cruel, ou de que possa resultar perigo comum; IV - À traição, de emboscada, ou mediante dissimulação ou outro recurso que dificulte ou torne impossível a defesa do ofendido; V - Para assegurar a execução, a ocultação, a impunidade ou vantagem de outro crime: Pena - reclusão, de doze a trinta anos."
+  },
+  {
+    "pergunta": "Aumento de Pena Milícia Privada ou Grupo de Extermínio",
+    "resposta": "Art. 121, § 6º - A pena é aumentada de 1/3 (um terço) até a metade se o crime for praticado por milícia privada, sob o pretexto de prestação de serviço de segurança, ou por grupo de extermínio."
+  },
+  {
+    "pergunta": "Crime Consumado",
+    "resposta": "Art. 14, I - Consumado, quando nele se reúnem todos os elementos de sua definição legal."
+  },
+  {
+    "pergunta": "Crime Tentado",
+    "resposta": "Art. 14, II - Tentado, quando, iniciada a execução, não se consuma por circunstâncias alheias à vontade do agente."
+  },
+  {
+    "pergunta": "Pena da Tentativa",
+    "resposta": "Art. 14, Parágrafo Único - Salvo disposição em contrário, pune-se a tentativa com a pena correspondente ao crime consumado, diminuída de um a dois terços."
+  },
+  {
+    "pergunta": "Penas Privativas de Liberdade",
+    "resposta": "A reclusão é aplicada a crimes graves, com cumprimento em regime fechado, semiaberto ou aberto. A detenção é para crimes menos graves, cumprida em regime semiaberto ou aberto. A prisão simples é para contravenções, cumprida em regime aberto ou semiaberto."
+  },
+  {
+    "pergunta": "Crimes Contra a Pessoa",
+    "resposta": "Crimes contra a vida (Art. 121 - Art. 128), lesão corporal (Art. 129), da periclitação da vida e da saúde (Art. 132 - Art. 145), rixa (Art. 137), crimes contra a honra (Art. 138 - Art. 145), crimes contra a liberdade individual (Art. 146 - Art. 154-B)."
+  },
+  {
+    "pergunta": "Perigo de contágio venéreo",
+    "resposta": "Art. 130 - Expor alguém, por meio de relações sexuais ou qualquer ato libidinoso, a contágio de moléstia venérea, de que sabe ou deve saber que está contaminado: Pena - detenção, de três meses a um ano, ou multa. § 1º - Se é intenção do agente transmitir a moléstia: Pena - reclusão, de um a quatro anos, e multa. § 2º - Somente se procede mediante representação."
+  },
+  {
+    "pergunta": "Abandono de Incapaz",
+    "resposta": "Art. 133 - Abandonar pessoa que está sob seu cuidado, guarda, vigilância ou autoridade, e, por qualquer motivo, incapaz de defender-se dos riscos resultantes do abandono: Pena - detenção, de seis meses a três anos. § 1º - Se do abandono resulta lesão corporal de natureza grave: Pena - reclusão, de um a cinco anos. § 2º - Se resulta a morte: Pena - reclusão, de quatro a doze anos."
+  },
+  {
+    "pergunta": "Exposição ou Abandono de Recém-nascido",
+    "resposta": "Art. 134 - Expor ou abandonar recém-nascido, para ocultar desonra própria: Pena - detenção, de seis meses a dois anos. § 1º - Se do fato resulta lesão corporal de natureza grave: Pena - detenção, de um a três anos. § 2º - Se resulta a morte: Pena - detenção, de dois a seis anos."
+  },
+  {
+    "pergunta": "Omissão de Socorro",
+    "resposta": "Art. 135 - Deixar de prestar assistência, quando possível fazê-lo sem risco pessoal, à criança abandonada ou extraviada, ou à pessoa inválida ou ferida, ao desamparo ou em grave e iminente perigo; ou não pedir, nesses casos, o socorro da autoridade pública: Pena - detenção, de um a seis meses, ou multa."
+  },
+  {
+    "pergunta": "Calúnia",
+    "resposta": "Art. 138 - Caluniar alguém, imputando-lhe falsamente fato definido como crime: Pena - detenção, de seis meses a dois anos, e multa. § 1º - Na mesma pena incorre quem, sabendo falsa a imputação, a propala ou divulga. § 2º - É punível a calúnia contra os mortos. § 3º - Admite-se a prova da verdade, salvo: I - se, constituindo o fato imputado crime de ação privada, o ofendido não foi condenado por sentença irrecorrível; II - se o fato é imputado a qualquer das pessoas indicadas no nº I do art. 141; III - se do crime imputado, embora de ação pública, o ofendido foi absolvido por sentença irrecorrível."
+  },
+  {
+    "pergunta": "Difamação",
+    "resposta": "Art. 139 - Difamar alguém, imputando-lhe fato ofensivo à sua reputação: Pena - detenção, de três meses a um ano, e multa. § Único - A exceção da verdade somente se admite se o ofendido é funcionário público e a ofensa é relativa ao exercício de suas funções."
+  },
+  {
+    "pergunta": "Aborto Necessário e Aborto no Caso de Gravidez Resultante de Estupro",
+    "resposta": "Art. 128 - Não se pune o aborto praticado por médico: I - se não há outro meio de salvar a vida da gestante; II - se a gravidez resulta de estupro e o aborto é precedido de consentimento da gestante ou, quando incapaz, de seu representante legal."
+  },
+  {
+    "pergunta": "Aborto Provocado pela Gestante",
+    "resposta": "Art. 124 - Provocar aborto em si mesma ou consentir que outrem lho provoque: Pena - detenção, de um a três anos."
+  },
+  {
+    "pergunta": "Aborto Provocado por Terceiro",
+    "resposta": "Art. 125 - Provocar aborto, sem o consentimento da gestante: Pena - reclusão, de três a dez anos. Art. 126 - Provocar aborto com o consentimento da gestante: Pena - reclusão, de um a quatro anos."
+  },
+  {
+    "pergunta": "Lesão Corporal - Definição",
+    "resposta": "Art. 129 - Ofender a integridade corporal ou a saúde de outrem: Pena - detenção, de três meses a um ano."
+  },
+  {
+    "pergunta": "Lesão Corporal de Natureza Grave - Condições I-IV",
+    "resposta": "Art. 129, § 1º - Se resulta: I - Incapacidade para as ocupações habituais, por mais de trinta dias; II - Perigo de vida; III - Debilidade permanente de membro, sentido ou função; IV - Aceleração de parto: Pena - reclusão, de um a cinco anos."
+  },
+  {
+    "pergunta": "Lesão Corporal Grave - Consequências mais graves (II)",
+    "resposta": "Art. 129, § 2º - Se resulta: I - Incapacidade permanente para o trabalho; II - Enfermidade incurável; III - Perda ou inutilização do membro, sentido ou função; IV - Deformidade permanente; V - Aborto: Pena - reclusão, de dois a oito anos."
+  },
+  {
+    "pergunta": "Lesão Corporal Seguida de Morte",
+    "resposta": "Art. 129, § 3º - Se resulta morte e as circunstâncias evidenciam que o agente não quis o resultado, nem assumiu o risco de produzi-lo: Pena - reclusão, de quatro a doze anos."
+  },
+  {
+    "pergunta": "Diminuição de Pena em Lesão Corporal",
+    "resposta": "Art. 129, § 4º - Se o agente comete o crime impelido por motivo de relevante valor social ou moral ou sob o domínio de violenta emoção, logo em seguida à injusta provocação da vítima, o juiz pode reduzir a pena de um sexto a um terço."
+  },
+  
+  {
+    "pergunta": "Substituição da pena por multa",
+    "resposta": "Art. 129, § 5º - O juiz, não sendo graves as lesões, pode substituir a pena de detenção pela de multa, de duzentos mil réis a dois contos de réis, nas hipóteses dos §§ 4º e 6º, ou se as lesões são recíprocas."
+  },
+  {
+    "pergunta": "Lesão corporal culposa",
+    "resposta": "Art. 129, § 6º - Se a lesão é culposa: Pena - detenção, de dois meses a um ano."
+  },
+  {
+    "pergunta": "Violência doméstica (lesão contra familiares)",
+    "resposta": "Art. 129, § 9º - Se a lesão for praticada contra ascendente, descendente, irmão, cônjuge ou companheiro, ou quem tenha convivido ou conviva, a pena é de detenção, de 3 (três) meses a 3 (três) anos."
+  },
+  {
+    "pergunta": "Aumento de pena em casos de violência doméstica",
+    "resposta": "Art. 129, § 10 - Se as circunstâncias forem as do § 9º, aumenta-se a pena em 1/3 (um terço)."
+  },
+  {
+    "pergunta": "Aumento de pena em caso de lesão contra pessoa com deficiência",
+    "resposta": "Art. 129, § 11 - Se a lesão for praticada contra pessoa portadora de deficiência, a pena será aumentada de um terço."
+  },
+  {
+    "pergunta": "Aumento de pena em caso de lesão contra autoridades ou agentes",
+    "resposta": "Art. 129, § 12 - Se a lesão for praticada contra autoridade ou agente, incluindo membros do sistema prisional e da Força Nacional de Segurança Pública, a pena é aumentada de um a dois terços."
+  },
+  {
+    "pergunta": "Lesão praticada contra mulher por motivo de sexo",
+    "resposta": "Art. 129, § 13 - Se a lesão for praticada contra a mulher, por razões da condição do sexo feminino, a pena é de reclusão, de 1 (um) a 4 (quatro) anos."
+  },
+
+  {
+    "pergunta": "Furto - Subtração de coisa alheia móvel",
+    "resposta": "Art. 155 - Subtrair, para si ou para outrem, coisa alheia móvel: Pena - reclusão, de um a quatro anos, e multa."
+  },
+  {
+    "pergunta": "Furto - Aumento de pena durante o repouso noturno",
+    "resposta": "Art. 155, § 1º - A pena aumenta-se de um terço, se o crime é praticado durante o repouso noturno."
+  },
+  {
+    "pergunta": "Furto - Substituição da pena para criminoso primário",
+    "resposta": "Art. 155, § 2º - Se o criminoso é primário, e é de pequeno valor a coisa furtada, o juiz pode substituir a pena de reclusão pela de detenção, diminuí-la de um a dois terços, ou aplicar somente a pena de multa."
+  },
+  {
+    "pergunta": "Furto - Equiparação de coisa móvel",
+    "resposta": "Art. 155, § 3º - Equipara-se à coisa móvel a energia elétrica ou qualquer outra que tenha valor econômico."
+  },
+  {
+    "pergunta": "Furto qualificado - Pena",
+    "resposta": "Art. 155, § 4º - A pena é de reclusão de dois a oito anos, e multa, se o crime é cometido com destruição ou rompimento de obstáculo à subtração da coisa; com abuso de confiança; mediante fraude, escalada ou destreza; com emprego de chave falsa; ou mediante concurso de duas ou mais pessoas."
+  },
+  {
+    "pergunta": "Furto com explosivos",
+    "resposta": "Art. 155, § 4º-A - A pena é de reclusão de 4 (quatro) a 10 (dez) anos e multa, se houver emprego de explosivo ou de artefato análogo que cause perigo comum."
+  },
+  {
+    "pergunta": "Furto com fraude eletrônica",
+    "resposta": "Art. 155, § 4º-B - A pena é de reclusão, de 4 (quatro) a 8 (oito) anos, e multa, se o furto mediante fraude é cometido por meio de dispositivo eletrônico ou informático."
+  },
+  {
+    "pergunta": "Furto - Aumento de pena para fraude com servidor fora do país",
+    "resposta": "Art. 155, § 4º-C, I - A pena aumenta-se de 1/3 (um terço) a 2/3 (dois terços), se o crime é praticado mediante a utilização de servidor mantido fora do território nacional."
+  },
+  {
+    "pergunta": "Furto - Aumento de pena em caso de fraude contra idoso",
+    "resposta": "Art. 155, § 4º-C, II - A pena aumenta-se de 1/3 (um terço) ao dobro, se o crime é praticado contra idoso ou vulnerável."
+  },
+  {
+    "pergunta": "Furto - Subtração de veículo automotor",
+    "resposta": "Art. 155, § 5º - A pena é de reclusão de três a oito anos, se a subtração for de veículo automotor que venha a ser transportado para outro Estado ou para o exterior."
+  },
+  {
+    "pergunta": "Furto - Subtração de semovente domesticável",
+    "resposta": "Art. 155, § 6º - A pena é de reclusão de 2 (dois) a 5 (cinco) anos se a subtração for de semovente domesticável de produção."
+  },
+  {
+    "pergunta": "Furto - Subtração de substâncias explosivas",
+    "resposta": "Art. 155, § 7º - A pena é de reclusão de 4 (quatro) a 10 (dez) anos e multa, se a subtração for de substâncias explosivas ou de acessórios que, conjunta ou isoladamente, possibilitem sua fabricação, montagem ou emprego."
+  },
+  {
+    "pergunta": "Furto de coisa comum",
+    "resposta": "Art. 156 - Subtrair o condômino, co-herdeiro ou sócio, a coisa comum: Pena - detenção, de seis meses a dois anos, ou multa."
+  },
+  {
+    "pergunta": "Furto - Subtração de coisa comum fungível",
+    "resposta": "Art. 156, § 2º - Não é punível a subtração de coisa comum fungível, cujo valor não exceda a quota a que tem direito o agente."
+  },
+  {
+    "pergunta": "Roubo - Caput - Definição",
+    "resposta": "Art. 157 - Subtrair coisa móvel alheia, para si ou para outrem, mediante grave ameaça ou violência à pessoa, ou depois de havê-la, por qualquer meio, reduzido à impossibilidade de resistência: Pena - reclusão, de quatro a dez anos, e multa."
+  },
+  {
+    "pergunta": "Roubo - Incorre na mesma pena;",
+    "resposta": "Art. 157, § 1º - Na mesma pena incorre quem, logo depois de subtraída a coisa, emprega violência contra pessoa ou grave ameaça, a fim de assegurar a impunidade do crime ou a detenção da coisa para si ou para terceiro."
+  },
+  {
+    "pergunta": "Roubo - Aumento da pena em 1/3",
+    "resposta": "Art. 157, § 2º - A pena aumenta-se de 1/3 (um terço) até metade: II - se há o concurso de duas ou mais pessoas; III - se a vítima está em serviço de transporte de valores e o agente conhece tal circunstância; IV - se a subtração for de veículo automotor que venha a ser transportado para outro Estado ou para o exterior; V - se o agente mantém a vítima em seu poder, restringindo sua liberdade; VI – se a subtração for de substâncias explosivas ou de acessórios que, conjunta ou isoladamente, possibilitem sua fabricação, montagem ou emprego; VII - se a violência ou grave ameaça é exercida com emprego de arma branca."
+  },
+  {
+    "pergunta": "Roubo - Aumento de pena em 2/3 (dois terços)",
+    "resposta": "Art. 157, § 2º-A - A pena aumenta-se de 2/3 (dois terços): I – se a violência ou ameaça é exercida com emprego de arma de fogo; II – se há destruição ou rompimento de obstáculo mediante o emprego de explosivo ou de artefato análogo que cause perigo comum."
+  },
+  {
+    "pergunta": "Roubo - Arma de fogo de uso restrito",
+    "resposta": "Art. 157, § 2º-B - Se a violência ou grave ameaça é exercida com emprego de arma de fogo de uso restrito ou proibido, aplica-se em dobro a pena prevista no caput deste artigo."
+  },
+  {
+    "pergunta": "Roubo - Lesão corporal grave durante o roubo",
+    "resposta": "Art. 157, § 3º - Se da violência resulta lesão corporal grave, a pena é de reclusão de 7 (sete) a 18 (dezoito) anos, e multa."
+  },
+  {
+    "pergunta": "Roubo - Morte durante o roubo",
+    "resposta": "Art. 157, § 3º - Se da violência resulta morte, a pena é de reclusão de 20 (vinte) a 30 (trinta) anos, e multa."
+  },
+
+  {
+    "pergunta": "Extorsão - Caput - Definição",
+    "resposta": "Art. 158 - Constranger alguém, mediante violência ou grave ameaça, e com o intuito de obter para si ou para outrem indevida vantagem econômica, a fazer, tolerar que se faça ou deixar de fazer alguma coisa: Pena - reclusão, de quatro a dez anos, e multa."
+  },
+  {
+    "pergunta": "Extorsão - Aumento da pena de um terço até metade; ",
+    "resposta": "Art. 158, § 1º - Se o crime é cometido por duas ou mais pessoas, ou com emprego de arma, aumenta-se a pena de um terço até metade."
+  },
+  {
+    "pergunta": "Extorsão com restrição de liberdade da vítima",
+    "resposta": "Art. 158, § 3º - Se o crime é cometido mediante a restrição da liberdade da vítima, e essa condição é necessária para a obtenção da vantagem econômica, a pena é de reclusão, de 6 (seis) a 12 (doze) anos, além da multa; se resulta lesão corporal grave ou morte, aplicam-se as penas previstas no art. 159, §§ 2º e 3º, respectivamente."
+  },
+  {
+    "pergunta": "Extorsão mediante Sequestro - Caput - Definição",
+    "resposta": "Art. 159 - Seqüestrar pessoa com o fim de obter, para si ou para outrem, qualquer vantagem, como condição ou preço do resgate: Pena - reclusão, de oito a quinze anos."
+  },
+  {
+    "pergunta": "Estelionato - Caput - Definição",
+    "resposta": "Art. 171 - Obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil, ou qualquer outro meio fraudulento: Pena - reclusão, de um a cinco anos, e multa, de quinhentos mil réis a dez contos de réis."
+  },
+  {
+    "pergunta": "Estelionato - Primário e prejuízo de pequeno valor",
+    "resposta": "Art. 171, § 1º - Se o criminoso é primário e o prejuízo é de pequeno valor, o juiz pode aplicar a pena conforme o disposto no art. 155, § 2º."
+  },
+  {
+    "pergunta": "Estelionato - Disposição de coisa alheia como própria",
+    "resposta": "Art. 171, § 2º, I - Vende, permuta, dá em pagamento, em locação ou em garantia coisa alheia como própria."
+  },
+  {
+    "pergunta": "Estelionato - Alienação fraudulenta de coisa própria",
+    "resposta": "Art. 171, § 2º, II - Vende, permuta, dá em pagamento ou em garantia coisa própria inalienável, gravada de ônus ou litigiosa, ou imóvel que prometeu vender a terceiro, mediante pagamento em prestações, silenciando sobre qualquer dessas circunstâncias."
+  },
+  {
+    "pergunta": "Estelionato - Crime cometido contra idoso ou vulnerável",
+    "resposta": "Art. 171, § 4º - A pena aumenta-se de 1/3 ao dobro, se o crime é cometido contra idoso ou vulnerável, considerada a relevância do resultado gravoso."
+  },
+  {
+    "pergunta": "Estelionato - Representação da vítima",
+    "resposta": "Art. 171, § 5º - Somente se procede mediante representação, salvo se a vítima for: a Administração Pública, criança ou adolescente, pessoa com deficiência mental, ou maior de 70 anos de idade ou incapaz."
+  },
+  {
+    "pergunta": "Estelionato - Organizar ou distribuir carteiras de ativos virtuais",
+    "resposta": "Art. 171-A - Organizar, gerir, ofertar ou distribuir carteiras ou intermediar operações que envolvam ativos virtuais, valores mobiliários ou quaisquer ativos financeiros com o fim de obter vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil ou qualquer outro meio fraudulento. Pena - reclusão, de 4 (quatro) a 8 (oito) anos, e multa."
   }
+
+  
+
+  
 ]

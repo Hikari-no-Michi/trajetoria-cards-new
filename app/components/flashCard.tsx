@@ -72,7 +72,7 @@ const Flashcard: React.FC<FlashcardProps> = ({
       {conteudoDisciplina && (
         <div className="flex justify-center space-x-4 mt-4">
         <div
-          className="w-[200px] text-center bg-red-200 p-2 text-slate-700 select-none cursor-pointer focus:outline-none transition transform duration-200 hover:scale-105 active:scale-95"
+          className="w-[200px] text-center bg-red-400 p-2 text-slate-50 select-none cursor-pointer focus:outline-none transition transform duration-200 hover:scale-105 active:scale-95"
           onClick={(e) => {
             e.stopPropagation();
             selecionarProximoCard();
@@ -81,7 +81,7 @@ const Flashcard: React.FC<FlashcardProps> = ({
           Não Acertei 😞
         </div>
         <div
-          className="w-[200px] text-center bg-green-200 p-2 text-slate-700 select-none cursor-pointer focus:outline-none transition transform duration-200 hover:scale-105 active:scale-95"
+          className="w-[200px] text-center bg-green-400 p-2 text-slate-800 select-none cursor-pointer focus:outline-none transition transform duration-200 hover:scale-105 active:scale-95"
           onClick={(e) => {
             e.stopPropagation();
             selecionarProximoCard();
